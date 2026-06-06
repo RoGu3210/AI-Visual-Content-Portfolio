@@ -47,7 +47,7 @@ The 5 key visual moments: **Hook → Problem → Concept (4 techniques) → Exam
 Three editable Excalidraw diagrams for *ThreadPup* (a print-on-demand custom-tee
 platform), exported as **PNG + `.excalidraw`**, plus a kept **draft** for process.
 
-📁 [`task-3-threadpup/`](task-3-threadpup/) · 🔗 [live Excalidraw share link](https://excalidraw.com/#json=Nu6vDyRJbGCNWqYvvbJMD,3rbbD0q8YYJxRDV1DeVdGQ) (deployment pipeline) · 📄 [open/export guide](task-3-threadpup/links.md)
+📁 [`task-3-threadpup/`](task-3-threadpup/) · 🔗 live Excalidraw: [architecture](https://excalidraw.com/#json=ly-COqpUDUHs-KOhxAjpC,sjdz9DjkDBrwffpEiN7ExA) · [pipeline](https://excalidraw.com/#json=Nu6vDyRJbGCNWqYvvbJMD,3rbbD0q8YYJxRDV1DeVdGQ) · [data flow](https://excalidraw.com/#json=NVVA-_6hjroPHO-gt7VRL,9jY9w9gTD8ZiBNXjogAE1w) · 📄 [open/export guide](task-3-threadpup/links.md)
 
 | System architecture | Deployment pipeline | Order data flow |
 |---|---|---|

@@ -12,17 +12,18 @@ three rows; the customer-journey is a bonus marketing view.**
 | *Order Data Flow — DRAFT (process evidence)* | `data-flow.draft.excalidraw` | `data-flow.draft.excalidraw.json` | `data-flow.draft.png` |
 | *Customer Journey (bonus, marketing funnel)* | `customer-journey.excalidraw` | `customer-journey.excalidraw.json` | `customer-journey.png` |
 
-## Live Excalidraw share link
-The deployment pipeline was also pushed through the **Excalidraw MCP** (`create_view`
-+ `export_to_excalidraw`) to verify the Method-B output renders in the real tool and
-to produce a shareable, fully-editable link:
+## Live Excalidraw share links
+All three Scenario-2 diagrams were pushed through the **Excalidraw MCP**
+(`create_view` + `export_to_excalidraw`) to verify the Method-B output renders in
+the real tool and to produce shareable, fully-editable links:
 
+- **System Architecture:** https://excalidraw.com/#json=ly-COqpUDUHs-KOhxAjpC,sjdz9DjkDBrwffpEiN7ExA
 - **Deployment Pipeline:** https://excalidraw.com/#json=Nu6vDyRJbGCNWqYvvbJMD,3rbbD0q8YYJxRDV1DeVdGQ
+- **Order Data Flow:** https://excalidraw.com/#json=NVVA-_6hjroPHO-gt7VRL,9jY9w9gTD8ZiBNXjogAE1w
 
-> Note: the MCP/web renderer doesn't draw emoji and is tuned for compact 4:3 views, so
-> the shared link uses an emoji-free, reframed version. The wide, emoji-rich technical
-> diagrams are best served by the file pipeline below — open the `.excalidraw` files for
-> the full-fidelity, hand-drawn versions.
+> Note: the MCP/web renderer doesn't draw emoji, so the shared links use emoji-free
+> versions (the icons live in the local files). For the full-fidelity hand-drawn
+> versions with icons, open the `.excalidraw` files below via Menu → Open.
 
 ## Open a local `.excalidraw` file
 1. Go to excalidraw.com → **Menu (☰) → Open** (Ctrl+O).
