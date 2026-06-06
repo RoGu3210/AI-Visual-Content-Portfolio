@@ -20,7 +20,7 @@ model-comparison write-up and `../_variations/` for iteration evidence.
 | `frame-05-summary_1080p.png` | Visual moment 5 — Checklist + CTA |
 
 ## The 5 key visual moments
-1. **Hook** — "You're prompting AI wrong" + 6 quick fixes
+1. **Hook** — "You're prompting AI wrong" + 4 quick fixes
 2. **Problem** — Vague in, vague out
 3. **Concept** — Zero-shot · Few-shot · Chain-of-thought · Role
 4. **Example** — "Maya has 7 apples … +4 = 11", reasoned step by step

@@ -103,6 +103,15 @@ craft. So: **constrain the prompt first, then judge the model.**
 ## If iterating further
 - Re-roll frame-02 on Pro with an explicit "the note has NO words, only scribbles" line to try for an all-Pro pack.
 
+## Round 5 — copy consistency fix (6 → 4)
+QA flagged a copy mismatch: the hook said *"6 quick fixes"* (the blog had 6
+techniques) but the explainer teaches **4** named techniques (frame-03) and the
+recap lists **4** items (frame-05). Fixed by standardizing the number on **4**:
+re-rolled frame-01 at Pro with the subline changed to *"4 quick fixes"* (2 clean
+variations, kept v1 in `_variations/r5-fourfix/`), and changed the thumbnail stamp
+from "6 QUICK FIXES" to "4 TECHNIQUES". The whole pack now reads 4 everywhere.
+
 ## Cost
-~**360 Kie credits** total — 12 key-check + 120 R1 (5×2 NB2) + 48 R2 (2×2 NB2) + 90 R3
-(5×1 Pro) + 90 R4 (5×1 Pro-hardened) — ≈ $2–2.7. Final pack = 4 Pro-hardened + 1 NB2.
+~**360 Kie credits** for R1–R4 (12 key-check + 120 R1 + 48 R2 + 90 R3 + 90 R4) plus
+**36** for the R5 hook re-roll (2× Pro) — ≈ $2.2–2.9 total. Final pack = 4
+Pro-hardened frames + 1 NB2; hook is the R5 "4 quick fixes" Pro frame.

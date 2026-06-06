@@ -34,7 +34,7 @@ STYLE = (
 
 PROMPTS = {
     1: ("hook", STYLE + " ONLY two pieces of text on the whole image: a big centered headline "
-        "\"You're prompting AI wrong\" and a smaller line beneath it \"6 quick fixes\". Do NOT "
+        "\"You're prompting AI wrong\" and a smaller line beneath it \"4 quick fixes\". Do NOT "
         "add any other captions, labels, sticky-notes or paragraphs anywhere. Doodles: a "
         "puzzled person on the left and a friendly waving robot on the right, a few sparkles, "
         "lots of empty space. A punchy YouTube hook frame."),

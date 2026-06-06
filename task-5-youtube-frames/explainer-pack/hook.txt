@@ -8,12 +8,12 @@ Spoken hook (first 8 seconds, read over frame-01-hook):
 
 On-screen hook (frame-01-hook visual):
   Headline:  "You're prompting AI wrong"
-  Sub-badge: "6 quick fixes"
+  Sub-badge: "4 quick fixes"
   Accent:    ✨ sparkles
 
 Title options (for the upload):
   1. Stop Prompting AI Wrong — 4 Techniques in 3 Minutes
-  2. You're Prompting AI Wrong (6 Quick Fixes)
+  2. You're Prompting AI Wrong (4 Quick Fixes)
   3. 4 Prompt Techniques That Instantly Improve Any AI Answer
 
 One-line description / pinned comment:
@@ -21,4 +21,4 @@ One-line description / pinned comment:
   reasoning, and roles — that make any AI answer sharper. Try one on your next
   prompt. ⏱ 3-minute explainer.
 
-Thumbnail: thumbnail.png (1280×720) — "STOP PROMPTING AI WRONG" + "6 QUICK FIXES".
+Thumbnail: thumbnail.png (1280×720) — "STOP PROMPTING AI WRONG" + "4 TECHNIQUES".

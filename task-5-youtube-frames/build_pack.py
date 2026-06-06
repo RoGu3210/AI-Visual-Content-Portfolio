@@ -79,11 +79,11 @@ def make_thumbnail():
     d.line([66, 408, 760, 408], fill=hx("#C68642"), width=10)
     # subtitle
     d.text((62, 440), "4 techniques the pros use", font=F(50, bold=False), fill=hx("#444444"))
-    # "6 FIXES" stamp (rotated badge)
+    # "4 TECHNIQUES" stamp (rotated badge)
     stamp = Image.new("RGBA", (300, 300), (0, 0, 0, 0)); sd = ImageDraw.Draw(stamp)
     sd.ellipse([20, 20, 280, 280], fill=GREEN)
-    sd.text((150, 110), "6", font=F(120), fill="white", anchor="mm")
-    sd.text((150, 210), "QUICK FIXES", font=F(34), fill="white", anchor="mm")
+    sd.text((150, 110), "4", font=F(120), fill="white", anchor="mm")
+    sd.text((150, 210), "TECHNIQUES", font=F(34), fill="white", anchor="mm")
     stamp = stamp.rotate(-12, resample=Image.BICUBIC, expand=False)
     img.paste(stamp, (W-330, H-340), stamp)
     # robot + sparkles via emoji

@@ -7,7 +7,7 @@ unreliable AI answers into precise ones.
 ## The 5 key visual moments (one infographic frame each)
 | # | Moment | Frame | On-screen |
 |---|--------|-------|-----------|
-| 1 | **Hook** | `frame-01-hook` | "You're prompting AI wrong" + "6 quick fixes" + ✨ |
+| 1 | **Hook** | `frame-01-hook` | "You're prompting AI wrong" + "4 quick fixes" + ✨ |
 | 2 | **Problem** | `frame-02-problem` | "Vague in, vague out" — messy note → arrow → shrugging robot |
 | 3 | **Concept** | `frame-03-concept` | 4 techniques: Zero-shot · Few-shot · Chain-of-thought · Role |
 | 4 | **Example** | `frame-04-example` | Chain-of-thought: "Maya has 7 apples … +4 = 11" (3 steps) |
@@ -21,7 +21,7 @@ unreliable AI answers into precise ones.
 You've probably typed something into an AI, gotten a vague, generic answer back,
 and figured the tool just wasn't that smart. Here's the twist: most of the time
 the model is fine — it's the *prompt* that's letting you down. In the next three
-minutes I'll show you six quick fixes, built on four techniques the pros use, to
+minutes I'll show you four quick fixes — four simple techniques the pros use — to
 get sharp, reliable answers every single time.
 
 **[0:28 — PROBLEM · frame-02]**
