@@ -1,0 +1,16 @@
+{
+  "type": "excalidraw-scene-spec",
+  "section": "Chain-of-Thought Prompting",
+  "layout": "numbered-cards",
+  "checkpointId": "4ebdf0d9620a4c34b0",
+  "elements": [
+    {"type":"cameraUpdate","width":800,"height":600,"x":0,"y":-30},
+    {"type":"text","id":"s3v3-title","x":288,"y":22,"text":"Chain-of-Thought","fontSize":28,"strokeColor":"#1e1e1e"},
+    {"type":"text","id":"s3v3-sub","x":312,"y":62,"text":"Reason step by step","fontSize":16,"strokeColor":"#757575"},
+    {"type":"rectangle","id":"s3v3-c1","x":70,"y":130,"width":320,"height":110,"roundness":{"type":3},"backgroundColor":"#a5d8ff","fillStyle":"solid","strokeColor":"#1971c2","label":{"text":"1. Break into sub-steps","fontSize":18}},
+    {"type":"rectangle","id":"s3v3-c2","x":410,"y":130,"width":320,"height":110,"roundness":{"type":3},"backgroundColor":"#b2f2bb","fillStyle":"solid","strokeColor":"#2f9e44","label":{"text":"2. Step-by-step reasoning","fontSize":18}},
+    {"type":"rectangle","id":"s3v3-c3","x":70,"y":270,"width":320,"height":110,"roundness":{"type":3},"backgroundColor":"#fff3bf","fillStyle":"solid","strokeColor":"#f08c00","label":{"text":"3. Great for math & logic","fontSize":18}},
+    {"type":"rectangle","id":"s3v3-c4","x":410,"y":270,"width":320,"height":110,"roundness":{"type":3},"backgroundColor":"#d0bfff","fillStyle":"solid","strokeColor":"#7048e8","label":{"text":"4. Combine with few-shot","fontSize":18}},
+    {"type":"text","id":"s3v3-foot","x":268,"y":420,"text":"Best for multi-step problems","fontSize":16,"strokeColor":"#757575"}
+  ]
+}

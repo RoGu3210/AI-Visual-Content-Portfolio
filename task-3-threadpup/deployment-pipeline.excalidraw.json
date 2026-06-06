@@ -1,0 +1,528 @@
+{
+  "type": "excalidraw-scene-spec",
+  "title": "ThreadPup Deployment Pipeline",
+  "canvas": "1600x620",
+  "note": "Linear CI/CD flow; preview branch off CI; 50px gaps, labels >=16px above arrows.",
+  "elements": [
+    {
+      "type": "cameraUpdate",
+      "width": 1600,
+      "height": 620,
+      "x": 0,
+      "y": 0
+    },
+    {
+      "type": "rectangle",
+      "id": "bg",
+      "x": -100,
+      "y": -100,
+      "width": 1670,
+      "height": 800,
+      "backgroundColor": "#FFFDF9",
+      "fillStyle": "solid",
+      "strokeColor": "transparent",
+      "strokeWidth": 1
+    },
+    {
+      "type": "rectangle",
+      "id": "hdr",
+      "x": 40,
+      "y": 24,
+      "width": 1390,
+      "height": 92,
+      "roundness": {
+        "type": 3
+      },
+      "backgroundColor": "#FFF3E8",
+      "fillStyle": "solid",
+      "strokeColor": "#C68642",
+      "strokeWidth": 2
+    },
+    {
+      "type": "text",
+      "id": "title",
+      "x": 150,
+      "y": 40,
+      "text": "ThreadPup Deployment Pipeline",
+      "fontSize": 30,
+      "strokeColor": "#5B3A29"
+    },
+    {
+      "type": "text",
+      "id": "sub",
+      "x": 150,
+      "y": 82,
+      "text": "GitHub -> Vercel \u00b7 automated CI/CD",
+      "fontSize": 15,
+      "strokeColor": "#8A5A30"
+    },
+    {
+      "type": "ellipse",
+      "id": "m0",
+      "x": 56,
+      "y": 42,
+      "width": 18,
+      "height": 26,
+      "backgroundColor": "#5B3A29",
+      "fillStyle": "solid",
+      "strokeColor": "#5B3A29",
+      "strokeWidth": 2
+    },
+    {
+      "type": "ellipse",
+      "id": "m1",
+      "x": 94,
+      "y": 42,
+      "width": 18,
+      "height": 26,
+      "backgroundColor": "#5B3A29",
+      "fillStyle": "solid",
+      "strokeColor": "#5B3A29",
+      "strokeWidth": 2
+    },
+    {
+      "type": "ellipse",
+      "id": "m2",
+      "x": 62,
+      "y": 48,
+      "width": 44,
+      "height": 40,
+      "backgroundColor": "#F2D2A9",
+      "fillStyle": "solid",
+      "strokeColor": "#5B3A29",
+      "strokeWidth": 2
+    },
+    {
+      "type": "ellipse",
+      "id": "m3",
+      "x": 74,
+      "y": 62,
+      "width": 6,
+      "height": 6,
+      "backgroundColor": "#1e1e1e",
+      "fillStyle": "solid",
+      "strokeColor": "#1e1e1e",
+      "strokeWidth": 1
+    },
+    {
+      "type": "ellipse",
+      "id": "m4",
+      "x": 90,
+      "y": 62,
+      "width": 6,
+      "height": 6,
+      "backgroundColor": "#1e1e1e",
+      "fillStyle": "solid",
+      "strokeColor": "#1e1e1e",
+      "strokeWidth": 1
+    },
+    {
+      "type": "ellipse",
+      "id": "m5",
+      "x": 80,
+      "y": 72,
+      "width": 9,
+      "height": 6,
+      "backgroundColor": "#1e1e1e",
+      "fillStyle": "solid",
+      "strokeColor": "#1e1e1e",
+      "strokeWidth": 1
+    },
+    {
+      "type": "rectangle",
+      "id": "lg0",
+      "x": 1180,
+      "y": 40,
+      "width": 22,
+      "height": 16,
+      "backgroundColor": "#4dabf7",
+      "fillStyle": "solid",
+      "strokeColor": "#1971c2",
+      "strokeWidth": 1
+    },
+    {
+      "type": "text",
+      "id": "lt0",
+      "x": 1210,
+      "y": 39,
+      "text": "Source",
+      "fontSize": 14,
+      "strokeColor": "#1e1e1e"
+    },
+    {
+      "type": "rectangle",
+      "id": "lg1",
+      "x": 1180,
+      "y": 66,
+      "width": 22,
+      "height": 16,
+      "backgroundColor": "#51cf66",
+      "fillStyle": "solid",
+      "strokeColor": "#2f9e44",
+      "strokeWidth": 1
+    },
+    {
+      "type": "text",
+      "id": "lt1",
+      "x": 1210,
+      "y": 65,
+      "text": "CI / checks",
+      "fontSize": 14,
+      "strokeColor": "#1e1e1e"
+    },
+    {
+      "type": "rectangle",
+      "id": "lg2",
+      "x": 1180,
+      "y": 92,
+      "width": 22,
+      "height": 16,
+      "backgroundColor": "#ff922b",
+      "fillStyle": "solid",
+      "strokeColor": "#e8590c",
+      "strokeWidth": 1
+    },
+    {
+      "type": "text",
+      "id": "lt2",
+      "x": 1210,
+      "y": 91,
+      "text": "Deploy",
+      "fontSize": 14,
+      "strokeColor": "#1e1e1e"
+    },
+    {
+      "type": "rectangle",
+      "id": "dev",
+      "x": 40,
+      "y": 330,
+      "width": 190,
+      "height": 100,
+      "roundness": {
+        "type": 3
+      },
+      "backgroundColor": "#a5d8ff",
+      "fillStyle": "solid",
+      "strokeColor": "#1971c2",
+      "strokeWidth": 2,
+      "label": {
+        "text": "\ud83d\udc69\u200d\ud83d\udcbb\nDeveloper\npush / open PR",
+        "fontSize": 15,
+        "strokeColor": "#0b3d66"
+      }
+    },
+    {
+      "type": "rectangle",
+      "id": "gh",
+      "x": 280,
+      "y": 330,
+      "width": 190,
+      "height": 100,
+      "roundness": {
+        "type": 3
+      },
+      "backgroundColor": "#a5d8ff",
+      "fillStyle": "solid",
+      "strokeColor": "#1971c2",
+      "strokeWidth": 2,
+      "label": {
+        "text": "\ud83d\udc19\nGitHub repo\nmain + PRs",
+        "fontSize": 15,
+        "strokeColor": "#0b3d66"
+      }
+    },
+    {
+      "type": "rectangle",
+      "id": "ci",
+      "x": 520,
+      "y": 330,
+      "width": 210,
+      "height": 100,
+      "roundness": {
+        "type": 3
+      },
+      "backgroundColor": "#b2f2bb",
+      "fillStyle": "solid",
+      "strokeColor": "#2f9e44",
+      "strokeWidth": 2,
+      "label": {
+        "text": "\u2699\ufe0f\nGitHub Actions\nlint \u00b7 test \u00b7 build",
+        "fontSize": 15,
+        "strokeColor": "#14532d"
+      }
+    },
+    {
+      "type": "rectangle",
+      "id": "prod",
+      "x": 780,
+      "y": 330,
+      "width": 190,
+      "height": 100,
+      "roundness": {
+        "type": 3
+      },
+      "backgroundColor": "#ffd8a8",
+      "fillStyle": "solid",
+      "strokeColor": "#e8590c",
+      "strokeWidth": 2,
+      "label": {
+        "text": "\ud83d\udd3a\nVercel\nProduction deploy",
+        "fontSize": 15,
+        "strokeColor": "#9a3412"
+      }
+    },
+    {
+      "type": "rectangle",
+      "id": "supa",
+      "x": 1020,
+      "y": 330,
+      "width": 190,
+      "height": 100,
+      "roundness": {
+        "type": 3
+      },
+      "backgroundColor": "#b2f2bb",
+      "fillStyle": "solid",
+      "strokeColor": "#2f9e44",
+      "strokeWidth": 2,
+      "label": {
+        "text": "\ud83d\uddc4\ufe0f\nSupabase\nrun migrations",
+        "fontSize": 15,
+        "strokeColor": "#14532d"
+      }
+    },
+    {
+      "type": "rectangle",
+      "id": "live",
+      "x": 1260,
+      "y": 330,
+      "width": 170,
+      "height": 100,
+      "roundness": {
+        "type": 3
+      },
+      "backgroundColor": "#a5d8ff",
+      "fillStyle": "solid",
+      "strokeColor": "#1971c2",
+      "strokeWidth": 2,
+      "label": {
+        "text": "\ud83c\udf10\nthreadpup.com\nLIVE",
+        "fontSize": 16,
+        "strokeColor": "#0b3d66"
+      }
+    },
+    {
+      "type": "rectangle",
+      "id": "prev",
+      "x": 780,
+      "y": 170,
+      "width": 210,
+      "height": 100,
+      "roundness": {
+        "type": 3
+      },
+      "backgroundColor": "#ffd8a8",
+      "fillStyle": "solid",
+      "strokeColor": "#e8590c",
+      "strokeWidth": 2,
+      "label": {
+        "text": "\ud83d\udd3a\nVercel Preview\nper-PR URL",
+        "fontSize": 15,
+        "strokeColor": "#9a3412"
+      }
+    },
+    {
+      "type": "arrow",
+      "id": "e1",
+      "x": 230,
+      "y": 380,
+      "width": 50,
+      "height": 0,
+      "points": [
+        [
+          0,
+          0
+        ],
+        [
+          50,
+          0
+        ]
+      ],
+      "strokeColor": "#5B3A29",
+      "strokeWidth": 2,
+      "endArrowhead": "arrow"
+    },
+    {
+      "type": "text",
+      "id": "le1",
+      "x": 240.6,
+      "y": 348,
+      "text": "push",
+      "fontSize": 13,
+      "strokeColor": "#5B3A29"
+    },
+    {
+      "type": "arrow",
+      "id": "e2",
+      "x": 470,
+      "y": 380,
+      "width": 50,
+      "height": 0,
+      "points": [
+        [
+          0,
+          0
+        ],
+        [
+          50,
+          0
+        ]
+      ],
+      "strokeColor": "#5B3A29",
+      "strokeWidth": 2,
+      "endArrowhead": "arrow"
+    },
+    {
+      "type": "text",
+      "id": "le2",
+      "x": 487.8,
+      "y": 348,
+      "text": "PR",
+      "fontSize": 13,
+      "strokeColor": "#5B3A29"
+    },
+    {
+      "type": "arrow",
+      "id": "e3",
+      "x": 730,
+      "y": 380,
+      "width": 50,
+      "height": 0,
+      "points": [
+        [
+          0,
+          0
+        ],
+        [
+          50,
+          0
+        ]
+      ],
+      "strokeColor": "#5B3A29",
+      "strokeWidth": 2,
+      "endArrowhead": "arrow"
+    },
+    {
+      "type": "text",
+      "id": "le3",
+      "x": 737.0,
+      "y": 348,
+      "text": "merge",
+      "fontSize": 13,
+      "strokeColor": "#5B3A29"
+    },
+    {
+      "type": "arrow",
+      "id": "e4",
+      "x": 970,
+      "y": 380,
+      "width": 50,
+      "height": 0,
+      "points": [
+        [
+          0,
+          0
+        ],
+        [
+          50,
+          0
+        ]
+      ],
+      "strokeColor": "#5B3A29",
+      "strokeWidth": 2,
+      "endArrowhead": "arrow"
+    },
+    {
+      "type": "text",
+      "id": "le4",
+      "x": 973.4,
+      "y": 348,
+      "text": "deploy",
+      "fontSize": 13,
+      "strokeColor": "#5B3A29"
+    },
+    {
+      "type": "arrow",
+      "id": "e5",
+      "x": 1210,
+      "y": 380,
+      "width": 50,
+      "height": 0,
+      "points": [
+        [
+          0,
+          0
+        ],
+        [
+          50,
+          0
+        ]
+      ],
+      "strokeColor": "#5B3A29",
+      "strokeWidth": 2,
+      "endArrowhead": "arrow"
+    },
+    {
+      "type": "text",
+      "id": "le5",
+      "x": 1220.6,
+      "y": 348,
+      "text": "live",
+      "fontSize": 13,
+      "strokeColor": "#5B3A29"
+    },
+    {
+      "type": "arrow",
+      "id": "ep",
+      "x": 625,
+      "y": 330,
+      "width": 260,
+      "height": 60,
+      "points": [
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          -60
+        ],
+        [
+          260,
+          -60
+        ]
+      ],
+      "strokeColor": "#5B3A29",
+      "strokeWidth": 2,
+      "endArrowhead": "arrow"
+    },
+    {
+      "type": "text",
+      "id": "lep",
+      "x": 560,
+      "y": 284,
+      "text": "on PR",
+      "fontSize": 13,
+      "strokeColor": "#5B3A29"
+    },
+    {
+      "type": "text",
+      "id": "note",
+      "x": 60,
+      "y": 480,
+      "text": "Open a PR -> isolated preview deploy.   Merge to main -> CI passes -> production deploy + DB migrations -> live.",
+      "fontSize": 15,
+      "strokeColor": "#8A5A30"
+    }
+  ]
+}

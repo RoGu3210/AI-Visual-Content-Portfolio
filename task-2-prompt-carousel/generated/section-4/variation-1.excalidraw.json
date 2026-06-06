@@ -1,0 +1,18 @@
+{
+  "type": "excalidraw-scene-spec",
+  "section": "Role Prompting",
+  "layout": "vertical-flow",
+  "checkpointId": "77d704608bfb4bea9e",
+  "elements": [
+    {"type":"cameraUpdate","width":800,"height":600,"x":0,"y":0},
+    {"type":"text","id":"s4v1-title","x":302,"y":22,"text":"Role Prompting","fontSize":28,"strokeColor":"#1e1e1e"},
+    {"type":"text","id":"s4v1-sub","x":304,"y":62,"text":"Tell the AI who to be","fontSize":16,"strokeColor":"#757575"},
+    {"type":"rectangle","id":"s4v1-b1","x":230,"y":100,"width":340,"height":60,"roundness":{"type":3},"backgroundColor":"#a5d8ff","fillStyle":"solid","strokeColor":"#1971c2","label":{"text":"Assign a specific role","fontSize":18}},
+    {"type":"arrow","id":"s4v1-a1","x":400,"y":160,"width":0,"height":40,"points":[[0,0],[0,40]],"strokeColor":"#1e1e1e","strokeWidth":2,"endArrowhead":"arrow"},
+    {"type":"rectangle","id":"s4v1-b2","x":230,"y":200,"width":340,"height":60,"roundness":{"type":3},"backgroundColor":"#b2f2bb","fillStyle":"solid","strokeColor":"#2f9e44","label":{"text":"Improves relevance & focus","fontSize":18}},
+    {"type":"arrow","id":"s4v1-a2","x":400,"y":260,"width":0,"height":40,"points":[[0,0],[0,40]],"strokeColor":"#1e1e1e","strokeWidth":2,"endArrowhead":"arrow"},
+    {"type":"rectangle","id":"s4v1-b3","x":230,"y":300,"width":340,"height":60,"roundness":{"type":3},"backgroundColor":"#fff3bf","fillStyle":"solid","strokeColor":"#f08c00","label":{"text":"Shapes tone & reasoning","fontSize":18}},
+    {"type":"arrow","id":"s4v1-a3","x":400,"y":360,"width":0,"height":40,"points":[[0,0],[0,40]],"strokeColor":"#1e1e1e","strokeWidth":2,"endArrowhead":"arrow"},
+    {"type":"rectangle","id":"s4v1-b4","x":230,"y":400,"width":340,"height":60,"roundness":{"type":3},"backgroundColor":"#d0bfff","fillStyle":"solid","strokeColor":"#7048e8","label":{"text":"Pick a realistic role","fontSize":18}}
+  ]
+}

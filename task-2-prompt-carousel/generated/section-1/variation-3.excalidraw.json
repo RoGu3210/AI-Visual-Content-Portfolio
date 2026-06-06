@@ -1,0 +1,16 @@
+{
+  "type": "excalidraw-scene-spec",
+  "section": "Zero-Shot Prompting",
+  "layout": "numbered-cards",
+  "checkpointId": "cbced8b5f7cc4b499e",
+  "elements": [
+    {"type":"cameraUpdate","width":800,"height":600,"x":0,"y":-30},
+    {"type":"text","id":"s1v3-title","x":262,"y":22,"text":"Zero-Shot Prompting","fontSize":28,"strokeColor":"#1e1e1e"},
+    {"type":"text","id":"s1v3-sub","x":300,"y":62,"text":"Prompt with no examples","fontSize":16,"strokeColor":"#757575"},
+    {"type":"rectangle","id":"s1v3-c1","x":70,"y":130,"width":320,"height":110,"roundness":{"type":3},"backgroundColor":"#a5d8ff","fillStyle":"solid","strokeColor":"#1971c2","label":{"text":"1. No examples needed","fontSize":18}},
+    {"type":"rectangle","id":"s1v3-c2","x":410,"y":130,"width":320,"height":110,"roundness":{"type":3},"backgroundColor":"#b2f2bb","fillStyle":"solid","strokeColor":"#2f9e44","label":{"text":"2. Uses broad training data","fontSize":18}},
+    {"type":"rectangle","id":"s1v3-c3","x":70,"y":270,"width":320,"height":110,"roundness":{"type":3},"backgroundColor":"#fff3bf","fillStyle":"solid","strokeColor":"#f08c00","label":{"text":"3. Translate / summarize","fontSize":18}},
+    {"type":"rectangle","id":"s1v3-c4","x":410,"y":270,"width":320,"height":110,"roundness":{"type":3},"backgroundColor":"#d0bfff","fillStyle":"solid","strokeColor":"#7048e8","label":{"text":"4. Needs clear instructions","fontSize":18}},
+    {"type":"text","id":"s1v3-foot","x":264,"y":420,"text":"Best for quick, well-defined tasks","fontSize":16,"strokeColor":"#757575"}
+  ]
+}

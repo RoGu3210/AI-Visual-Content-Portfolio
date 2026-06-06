@@ -1,0 +1,505 @@
+{
+  "type": "excalidraw-scene-spec",
+  "title": "ThreadPup Order Data Flow (draft)",
+  "canvas": "1440x520",
+  "note": "DRAFT v1: pipeline writes to a single Supabase store; no status labels or notification layer yet.",
+  "elements": [
+    {
+      "type": "cameraUpdate",
+      "width": 1440,
+      "height": 520,
+      "x": 0,
+      "y": 0
+    },
+    {
+      "type": "rectangle",
+      "id": "bg",
+      "x": -100,
+      "y": -100,
+      "width": 1570,
+      "height": 620,
+      "backgroundColor": "#FFFDF9",
+      "fillStyle": "solid",
+      "strokeColor": "transparent",
+      "strokeWidth": 1
+    },
+    {
+      "type": "rectangle",
+      "id": "hdr",
+      "x": 40,
+      "y": 24,
+      "width": 1340,
+      "height": 92,
+      "roundness": {
+        "type": 3
+      },
+      "backgroundColor": "#FFF3E8",
+      "fillStyle": "solid",
+      "strokeColor": "#C68642",
+      "strokeWidth": 2
+    },
+    {
+      "type": "text",
+      "id": "title",
+      "x": 150,
+      "y": 40,
+      "text": "ThreadPup Order Data Flow (draft)",
+      "fontSize": 30,
+      "strokeColor": "#5B3A29"
+    },
+    {
+      "type": "text",
+      "id": "sub",
+      "x": 150,
+      "y": 82,
+      "text": "first pass \u2014 pipeline + data store",
+      "fontSize": 15,
+      "strokeColor": "#8A5A30"
+    },
+    {
+      "type": "ellipse",
+      "id": "m0",
+      "x": 56,
+      "y": 42,
+      "width": 18,
+      "height": 26,
+      "backgroundColor": "#5B3A29",
+      "fillStyle": "solid",
+      "strokeColor": "#5B3A29",
+      "strokeWidth": 2
+    },
+    {
+      "type": "ellipse",
+      "id": "m1",
+      "x": 94,
+      "y": 42,
+      "width": 18,
+      "height": 26,
+      "backgroundColor": "#5B3A29",
+      "fillStyle": "solid",
+      "strokeColor": "#5B3A29",
+      "strokeWidth": 2
+    },
+    {
+      "type": "ellipse",
+      "id": "m2",
+      "x": 62,
+      "y": 48,
+      "width": 44,
+      "height": 40,
+      "backgroundColor": "#F2D2A9",
+      "fillStyle": "solid",
+      "strokeColor": "#5B3A29",
+      "strokeWidth": 2
+    },
+    {
+      "type": "ellipse",
+      "id": "m3",
+      "x": 74,
+      "y": 62,
+      "width": 6,
+      "height": 6,
+      "backgroundColor": "#1e1e1e",
+      "fillStyle": "solid",
+      "strokeColor": "#1e1e1e",
+      "strokeWidth": 1
+    },
+    {
+      "type": "ellipse",
+      "id": "m4",
+      "x": 90,
+      "y": 62,
+      "width": 6,
+      "height": 6,
+      "backgroundColor": "#1e1e1e",
+      "fillStyle": "solid",
+      "strokeColor": "#1e1e1e",
+      "strokeWidth": 1
+    },
+    {
+      "type": "ellipse",
+      "id": "m5",
+      "x": 80,
+      "y": 72,
+      "width": 9,
+      "height": 6,
+      "backgroundColor": "#1e1e1e",
+      "fillStyle": "solid",
+      "strokeColor": "#1e1e1e",
+      "strokeWidth": 1
+    },
+    {
+      "type": "rectangle",
+      "id": "lg0",
+      "x": 1130,
+      "y": 40,
+      "width": 22,
+      "height": 16,
+      "backgroundColor": "#4dabf7",
+      "fillStyle": "solid",
+      "strokeColor": "#1971c2",
+      "strokeWidth": 1
+    },
+    {
+      "type": "text",
+      "id": "lt0",
+      "x": 1160,
+      "y": 39,
+      "text": "Customer-facing",
+      "fontSize": 14,
+      "strokeColor": "#1e1e1e"
+    },
+    {
+      "type": "rectangle",
+      "id": "lg1",
+      "x": 1130,
+      "y": 66,
+      "width": 22,
+      "height": 16,
+      "backgroundColor": "#51cf66",
+      "fillStyle": "solid",
+      "strokeColor": "#2f9e44",
+      "strokeWidth": 1
+    },
+    {
+      "type": "text",
+      "id": "lt1",
+      "x": 1160,
+      "y": 65,
+      "text": "Backend",
+      "fontSize": 14,
+      "strokeColor": "#1e1e1e"
+    },
+    {
+      "type": "rectangle",
+      "id": "lg2",
+      "x": 1130,
+      "y": 92,
+      "width": 22,
+      "height": 16,
+      "backgroundColor": "#ff922b",
+      "fillStyle": "solid",
+      "strokeColor": "#e8590c",
+      "strokeWidth": 1
+    },
+    {
+      "type": "text",
+      "id": "lt2",
+      "x": 1160,
+      "y": 91,
+      "text": "Third-party",
+      "fontSize": 14,
+      "strokeColor": "#1e1e1e"
+    },
+    {
+      "type": "rectangle",
+      "id": "d1",
+      "x": 50,
+      "y": 170,
+      "width": 200,
+      "height": 96,
+      "roundness": {
+        "type": 3
+      },
+      "backgroundColor": "#a5d8ff",
+      "fillStyle": "solid",
+      "strokeColor": "#1971c2",
+      "strokeWidth": 2,
+      "label": {
+        "text": "\ud83d\uded2\nOrder placed",
+        "fontSize": 15,
+        "strokeColor": "#0b3d66"
+      }
+    },
+    {
+      "type": "rectangle",
+      "id": "d2",
+      "x": 330,
+      "y": 170,
+      "width": 180,
+      "height": 96,
+      "roundness": {
+        "type": 3
+      },
+      "backgroundColor": "#ffd8a8",
+      "fillStyle": "solid",
+      "strokeColor": "#e8590c",
+      "strokeWidth": 2,
+      "label": {
+        "text": "\ud83d\udcb3\nStripe charge",
+        "fontSize": 15,
+        "strokeColor": "#9a3412"
+      }
+    },
+    {
+      "type": "rectangle",
+      "id": "d3",
+      "x": 590,
+      "y": 170,
+      "width": 200,
+      "height": 96,
+      "roundness": {
+        "type": 3
+      },
+      "backgroundColor": "#b2f2bb",
+      "fillStyle": "solid",
+      "strokeColor": "#2f9e44",
+      "strokeWidth": 2,
+      "label": {
+        "text": "\u2699\ufe0f\nFulfillment",
+        "fontSize": 15,
+        "strokeColor": "#14532d"
+      }
+    },
+    {
+      "type": "rectangle",
+      "id": "d4",
+      "x": 870,
+      "y": 170,
+      "width": 180,
+      "height": 96,
+      "roundness": {
+        "type": 3
+      },
+      "backgroundColor": "#b2f2bb",
+      "fillStyle": "solid",
+      "strokeColor": "#2f9e44",
+      "strokeWidth": 2,
+      "label": {
+        "text": "\ud83d\udda8\ufe0f\nPrint Shop",
+        "fontSize": 15,
+        "strokeColor": "#14532d"
+      }
+    },
+    {
+      "type": "rectangle",
+      "id": "d5",
+      "x": 1130,
+      "y": 170,
+      "width": 200,
+      "height": 96,
+      "roundness": {
+        "type": 3
+      },
+      "backgroundColor": "#b2f2bb",
+      "fillStyle": "solid",
+      "strokeColor": "#2f9e44",
+      "strokeWidth": 2,
+      "label": {
+        "text": "\ud83d\udce6\nShipping",
+        "fontSize": 15,
+        "strokeColor": "#14532d"
+      }
+    },
+    {
+      "type": "arrow",
+      "id": "a1",
+      "x": 250,
+      "y": 218,
+      "width": 80,
+      "height": 0,
+      "points": [
+        [
+          0,
+          0
+        ],
+        [
+          80,
+          0
+        ]
+      ],
+      "strokeColor": "#5B3A29",
+      "strokeWidth": 2,
+      "endArrowhead": "arrow"
+    },
+    {
+      "type": "arrow",
+      "id": "a2",
+      "x": 510,
+      "y": 218,
+      "width": 80,
+      "height": 0,
+      "points": [
+        [
+          0,
+          0
+        ],
+        [
+          80,
+          0
+        ]
+      ],
+      "strokeColor": "#5B3A29",
+      "strokeWidth": 2,
+      "endArrowhead": "arrow"
+    },
+    {
+      "type": "arrow",
+      "id": "a3",
+      "x": 790,
+      "y": 218,
+      "width": 80,
+      "height": 0,
+      "points": [
+        [
+          0,
+          0
+        ],
+        [
+          80,
+          0
+        ]
+      ],
+      "strokeColor": "#5B3A29",
+      "strokeWidth": 2,
+      "endArrowhead": "arrow"
+    },
+    {
+      "type": "arrow",
+      "id": "a4",
+      "x": 1050,
+      "y": 218,
+      "width": 80,
+      "height": 0,
+      "points": [
+        [
+          0,
+          0
+        ],
+        [
+          80,
+          0
+        ]
+      ],
+      "strokeColor": "#5B3A29",
+      "strokeWidth": 2,
+      "endArrowhead": "arrow"
+    },
+    {
+      "type": "rectangle",
+      "id": "db",
+      "x": 50,
+      "y": 360,
+      "width": 1280,
+      "height": 90,
+      "roundness": {
+        "type": 3
+      },
+      "backgroundColor": "#b2f2bb",
+      "fillStyle": "solid",
+      "strokeColor": "#2f9e44",
+      "strokeWidth": 2,
+      "opacity": 100,
+      "label": {
+        "text": "\ud83d\uddc4\ufe0f  Supabase \u00b7 orders table  (status field)",
+        "fontSize": 16,
+        "strokeColor": "#14532d"
+      }
+    },
+    {
+      "type": "arrow",
+      "id": "w0",
+      "x": 150,
+      "y": 266,
+      "width": 0,
+      "height": 94,
+      "points": [
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          94
+        ]
+      ],
+      "strokeColor": "#5B3A29",
+      "strokeWidth": 2,
+      "endArrowhead": "arrow"
+    },
+    {
+      "type": "arrow",
+      "id": "w1",
+      "x": 420,
+      "y": 266,
+      "width": 0,
+      "height": 94,
+      "points": [
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          94
+        ]
+      ],
+      "strokeColor": "#5B3A29",
+      "strokeWidth": 2,
+      "endArrowhead": "arrow"
+    },
+    {
+      "type": "arrow",
+      "id": "w2",
+      "x": 690,
+      "y": 266,
+      "width": 0,
+      "height": 94,
+      "points": [
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          94
+        ]
+      ],
+      "strokeColor": "#5B3A29",
+      "strokeWidth": 2,
+      "endArrowhead": "arrow"
+    },
+    {
+      "type": "arrow",
+      "id": "w3",
+      "x": 960,
+      "y": 266,
+      "width": 0,
+      "height": 94,
+      "points": [
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          94
+        ]
+      ],
+      "strokeColor": "#5B3A29",
+      "strokeWidth": 2,
+      "endArrowhead": "arrow"
+    },
+    {
+      "type": "arrow",
+      "id": "w4",
+      "x": 1230,
+      "y": 266,
+      "width": 0,
+      "height": 94,
+      "points": [
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          94
+        ]
+      ],
+      "strokeColor": "#5B3A29",
+      "strokeWidth": 2,
+      "endArrowhead": "arrow"
+    }
+  ]
+}

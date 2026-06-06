@@ -1,0 +1,26 @@
+{
+  "type": "excalidraw-scene-spec",
+  "order": 3,
+  "section": "Chain-of-Thought Prompting",
+  "layout": "vertical-flow",
+  "source": "../section-3/variation-1.excalidraw.json",
+  "exportUrl": "https://excalidraw.com/#json=oaqXWytOSqp9IVLbHDfJx,refEFzXXf5G7gP9qxWqAPw",
+  "elements": [
+    {"type":"text","id":"s3v1-title","x":272,"y":22,"text":"🧠 Chain-of-Thought","fontSize":28,"strokeColor":"#1e1e1e"},
+    {"type":"text","id":"s3v1-sub","x":312,"y":62,"text":"Reason step by step","fontSize":16,"strokeColor":"#757575"},
+    {"type":"rectangle","id":"s3v1-b1","x":230,"y":100,"width":340,"height":60,"roundness":{"type":3},"backgroundColor":"#a5d8ff","fillStyle":"solid","strokeColor":"#1971c2","label":{"text":"🪜 Break into sub-steps","fontSize":18}},
+    {"type":"arrow","id":"s3v1-a1","x":400,"y":160,"width":0,"height":40,"points":[[0,0],[0,40]],"strokeColor":"#1e1e1e","strokeWidth":2,"endArrowhead":"arrow"},
+    {"type":"rectangle","id":"s3v1-b2","x":230,"y":200,"width":340,"height":60,"roundness":{"type":3},"backgroundColor":"#b2f2bb","fillStyle":"solid","strokeColor":"#2f9e44","label":{"text":"🧠 Step-by-step reasoning","fontSize":18}},
+    {"type":"arrow","id":"s3v1-a2","x":400,"y":260,"width":0,"height":40,"points":[[0,0],[0,40]],"strokeColor":"#1e1e1e","strokeWidth":2,"endArrowhead":"arrow"},
+    {"type":"rectangle","id":"s3v1-b3","x":230,"y":300,"width":340,"height":60,"roundness":{"type":3},"backgroundColor":"#fff3bf","fillStyle":"solid","strokeColor":"#f08c00","label":{"text":"➗ Great for math & logic","fontSize":18}},
+    {"type":"arrow","id":"s3v1-a3","x":400,"y":360,"width":0,"height":40,"points":[[0,0],[0,40]],"strokeColor":"#1e1e1e","strokeWidth":2,"endArrowhead":"arrow"},
+    {"type":"rectangle","id":"s3v1-b4","x":230,"y":400,"width":340,"height":60,"roundness":{"type":3},"backgroundColor":"#d0bfff","fillStyle":"solid","strokeColor":"#7048e8","label":{"text":"🔗 Combine with few-shot","fontSize":18}},
+    {"type":"text","id":"s3v1-foot","x":250,"y":480,"text":"💡 Show your work, get better answers","fontSize":16,"strokeColor":"#757575"},
+    {"type":"line","id":"rb-ant","x":109,"y":237,"width":0,"height":11,"points":[[0,0],[0,11]],"strokeColor":"#1971c2","strokeWidth":2},
+    {"type":"ellipse","id":"rb-ball","x":104,"y":228,"width":10,"height":10,"backgroundColor":"#ff6b6b","fillStyle":"solid","strokeColor":"#e8590c","strokeWidth":2},
+    {"type":"rectangle","id":"rb-head","x":80,"y":250,"width":58,"height":46,"roundness":{"type":3},"backgroundColor":"#d0ebff","fillStyle":"solid","strokeColor":"#1971c2","strokeWidth":2},
+    {"type":"ellipse","id":"rb-eyeL","x":93,"y":264,"width":11,"height":11,"backgroundColor":"#1e1e1e","fillStyle":"solid","strokeColor":"#1e1e1e","strokeWidth":1},
+    {"type":"ellipse","id":"rb-eyeR","x":114,"y":264,"width":11,"height":11,"backgroundColor":"#1e1e1e","fillStyle":"solid","strokeColor":"#1e1e1e","strokeWidth":1},
+    {"type":"line","id":"rb-mouth","x":99,"y":284,"width":20,"height":0,"points":[[0,0],[20,0]],"strokeColor":"#1971c2","strokeWidth":2}
+  ]
+}

@@ -1,0 +1,22 @@
+{
+  "type": "excalidraw-scene-spec",
+  "order": 0,
+  "section": "Cover",
+  "layout": "title-card",
+  "exportUrl": "https://excalidraw.com/#json=9nSnqshKMPTgmw9u4QXd_,uln17BVQo8byEebt8f1jGQ",
+  "elements": [
+    {"type":"text","id":"cov-title","x":236,"y":95,"text":"Prompt Engineering","fontSize":36,"strokeColor":"#1e1e1e"},
+    {"type":"text","id":"cov-sub","x":238,"y":150,"text":"4 ways to get better answers from AI ✨","fontSize":19,"strokeColor":"#757575"},
+    {"type":"rectangle","id":"cov-p1","x":240,"y":215,"width":320,"height":50,"roundness":{"type":3},"backgroundColor":"#a5d8ff","fillStyle":"solid","strokeColor":"#1971c2","label":{"text":"1. 🎯 Zero-Shot Prompting","fontSize":18}},
+    {"type":"rectangle","id":"cov-p2","x":240,"y":277,"width":320,"height":50,"roundness":{"type":3},"backgroundColor":"#b2f2bb","fillStyle":"solid","strokeColor":"#2f9e44","label":{"text":"2. 📝 Few-Shot Prompting","fontSize":18}},
+    {"type":"rectangle","id":"cov-p3","x":240,"y":339,"width":320,"height":50,"roundness":{"type":3},"backgroundColor":"#fff3bf","fillStyle":"solid","strokeColor":"#f08c00","label":{"text":"3. 🧠 Chain-of-Thought","fontSize":18}},
+    {"type":"rectangle","id":"cov-p4","x":240,"y":401,"width":320,"height":50,"roundness":{"type":3},"backgroundColor":"#d0bfff","fillStyle":"solid","strokeColor":"#7048e8","label":{"text":"4. 🎭 Role Prompting","fontSize":18}},
+    {"type":"text","id":"cov-hint","x":304,"y":485,"text":"Swipe to level up  👉","fontSize":18,"strokeColor":"#1971c2"},
+    {"type":"line","id":"rb-ant","x":179,"y":79,"width":0,"height":11,"points":[[0,0],[0,11]],"strokeColor":"#1971c2","strokeWidth":2},
+    {"type":"ellipse","id":"rb-ball","x":174,"y":70,"width":10,"height":10,"backgroundColor":"#ff6b6b","fillStyle":"solid","strokeColor":"#e8590c","strokeWidth":2},
+    {"type":"rectangle","id":"rb-head","x":150,"y":92,"width":58,"height":46,"roundness":{"type":3},"backgroundColor":"#d0ebff","fillStyle":"solid","strokeColor":"#1971c2","strokeWidth":2},
+    {"type":"ellipse","id":"rb-eyeL","x":163,"y":106,"width":11,"height":11,"backgroundColor":"#1e1e1e","fillStyle":"solid","strokeColor":"#1e1e1e","strokeWidth":1},
+    {"type":"ellipse","id":"rb-eyeR","x":184,"y":106,"width":11,"height":11,"backgroundColor":"#1e1e1e","fillStyle":"solid","strokeColor":"#1e1e1e","strokeWidth":1},
+    {"type":"line","id":"rb-mouth","x":169,"y":126,"width":20,"height":0,"points":[[0,0],[20,0]],"strokeColor":"#1971c2","strokeWidth":2}
+  ]
+}

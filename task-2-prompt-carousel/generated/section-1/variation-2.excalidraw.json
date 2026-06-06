@@ -1,0 +1,19 @@
+{
+  "type": "excalidraw-scene-spec",
+  "section": "Zero-Shot Prompting",
+  "layout": "hub-and-spoke",
+  "checkpointId": "c910ee2155d4485a96",
+  "elements": [
+    {"type":"cameraUpdate","width":800,"height":600,"x":0,"y":0},
+    {"type":"text","id":"s1v2-title","x":262,"y":16,"text":"Zero-Shot Prompting","fontSize":26,"strokeColor":"#1e1e1e"},
+    {"type":"rectangle","id":"s1v2-n1","x":310,"y":95,"width":180,"height":56,"roundness":{"type":3},"backgroundColor":"#b2f2bb","fillStyle":"solid","strokeColor":"#2f9e44","label":{"text":"No examples needed","fontSize":16}},
+    {"type":"arrow","id":"s1v2-a1","x":400,"y":250,"width":0,"height":-99,"points":[[0,0],[0,-99]],"strokeColor":"#1e1e1e","strokeWidth":2,"endArrowhead":"arrow"},
+    {"type":"ellipse","id":"s1v2-hub","x":310,"y":250,"width":180,"height":110,"backgroundColor":"#a5d8ff","fillStyle":"solid","strokeColor":"#1971c2","strokeWidth":2,"label":{"text":"Zero-Shot","fontSize":20}},
+    {"type":"rectangle","id":"s1v2-n2","x":560,"y":277,"width":190,"height":56,"roundness":{"type":3},"backgroundColor":"#fff3bf","fillStyle":"solid","strokeColor":"#f08c00","label":{"text":"Broad training data","fontSize":16}},
+    {"type":"arrow","id":"s1v2-a2","x":490,"y":305,"width":70,"height":0,"points":[[0,0],[70,0]],"strokeColor":"#1e1e1e","strokeWidth":2,"endArrowhead":"arrow"},
+    {"type":"rectangle","id":"s1v2-n3","x":310,"y":455,"width":180,"height":56,"roundness":{"type":3},"backgroundColor":"#d0bfff","fillStyle":"solid","strokeColor":"#7048e8","label":{"text":"Clear instructions","fontSize":16}},
+    {"type":"arrow","id":"s1v2-a3","x":400,"y":360,"width":0,"height":95,"points":[[0,0],[0,95]],"strokeColor":"#1e1e1e","strokeWidth":2,"endArrowhead":"arrow"},
+    {"type":"rectangle","id":"s1v2-n4","x":50,"y":277,"width":195,"height":56,"roundness":{"type":3},"backgroundColor":"#ffd8a8","fillStyle":"solid","strokeColor":"#e8590c","label":{"text":"Translate / summarize","fontSize":16}},
+    {"type":"arrow","id":"s1v2-a4","x":310,"y":305,"width":-65,"height":0,"points":[[0,0],[-65,0]],"strokeColor":"#1e1e1e","strokeWidth":2,"endArrowhead":"arrow"}
+  ]
+}

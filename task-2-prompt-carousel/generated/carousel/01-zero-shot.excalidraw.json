@@ -1,0 +1,23 @@
+{
+  "type": "excalidraw-scene-spec",
+  "order": 1,
+  "section": "Zero-Shot Prompting",
+  "layout": "numbered-cards",
+  "source": "../section-1/variation-3.excalidraw.json",
+  "exportUrl": "https://excalidraw.com/#json=8PC_m1T-i8QjlS2C4NF9t,rVVi6oXI7KlF8o7hlIuwuw",
+  "elements": [
+    {"type":"text","id":"s1v3-title","x":250,"y":-8,"text":"🎯 Zero-Shot Prompting","fontSize":28,"strokeColor":"#1e1e1e"},
+    {"type":"text","id":"s1v3-sub","x":300,"y":32,"text":"Prompt with no examples","fontSize":16,"strokeColor":"#757575"},
+    {"type":"rectangle","id":"s1v3-c1","x":70,"y":100,"width":320,"height":110,"roundness":{"type":3},"backgroundColor":"#a5d8ff","fillStyle":"solid","strokeColor":"#1971c2","label":{"text":"🚫\n1. No examples needed","fontSize":18}},
+    {"type":"rectangle","id":"s1v3-c2","x":410,"y":100,"width":320,"height":110,"roundness":{"type":3},"backgroundColor":"#b2f2bb","fillStyle":"solid","strokeColor":"#2f9e44","label":{"text":"🌐\n2. Uses broad training data","fontSize":18}},
+    {"type":"rectangle","id":"s1v3-c3","x":70,"y":240,"width":320,"height":110,"roundness":{"type":3},"backgroundColor":"#fff3bf","fillStyle":"solid","strokeColor":"#f08c00","label":{"text":"🔤\n3. Translate / summarize","fontSize":18}},
+    {"type":"rectangle","id":"s1v3-c4","x":410,"y":240,"width":320,"height":110,"roundness":{"type":3},"backgroundColor":"#d0bfff","fillStyle":"solid","strokeColor":"#7048e8","label":{"text":"📋\n4. Needs clear instructions","fontSize":18}},
+    {"type":"text","id":"s1v3-foot","x":250,"y":390,"text":"💡 Best for quick, well-defined tasks","fontSize":16,"strokeColor":"#757575"},
+    {"type":"line","id":"rb-ant","x":89,"y":-9,"width":0,"height":11,"points":[[0,0],[0,11]],"strokeColor":"#1971c2","strokeWidth":2},
+    {"type":"ellipse","id":"rb-ball","x":84,"y":-18,"width":10,"height":10,"backgroundColor":"#ff6b6b","fillStyle":"solid","strokeColor":"#e8590c","strokeWidth":2},
+    {"type":"rectangle","id":"rb-head","x":60,"y":4,"width":58,"height":46,"roundness":{"type":3},"backgroundColor":"#d0ebff","fillStyle":"solid","strokeColor":"#1971c2","strokeWidth":2},
+    {"type":"ellipse","id":"rb-eyeL","x":73,"y":18,"width":11,"height":11,"backgroundColor":"#1e1e1e","fillStyle":"solid","strokeColor":"#1e1e1e","strokeWidth":1},
+    {"type":"ellipse","id":"rb-eyeR","x":94,"y":18,"width":11,"height":11,"backgroundColor":"#1e1e1e","fillStyle":"solid","strokeColor":"#1e1e1e","strokeWidth":1},
+    {"type":"line","id":"rb-mouth","x":79,"y":38,"width":20,"height":0,"points":[[0,0],[20,0]],"strokeColor":"#1971c2","strokeWidth":2}
+  ]
+}

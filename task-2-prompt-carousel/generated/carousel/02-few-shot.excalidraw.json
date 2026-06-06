@@ -1,0 +1,23 @@
+{
+  "type": "excalidraw-scene-spec",
+  "order": 2,
+  "section": "Few-Shot Prompting",
+  "layout": "numbered-cards",
+  "source": "../section-2/variation-3.excalidraw.json",
+  "exportUrl": "https://excalidraw.com/#json=E_Yw9cOIVMlnHl4G_xLJd,GeHoorikJ43QwXArZIR63A",
+  "elements": [
+    {"type":"text","id":"s2v3-title","x":262,"y":-8,"text":"📝 Few-Shot Prompting","fontSize":28,"strokeColor":"#1e1e1e"},
+    {"type":"text","id":"s2v3-sub","x":290,"y":32,"text":"Guide with a few examples","fontSize":16,"strokeColor":"#757575"},
+    {"type":"rectangle","id":"s2v3-c1","x":70,"y":100,"width":320,"height":110,"roundness":{"type":3},"backgroundColor":"#a5d8ff","fillStyle":"solid","strokeColor":"#1971c2","label":{"text":"📝\n1. Examples in the prompt","fontSize":18}},
+    {"type":"rectangle","id":"s2v3-c2","x":410,"y":100,"width":320,"height":110,"roundness":{"type":3},"backgroundColor":"#b2f2bb","fillStyle":"solid","strokeColor":"#2f9e44","label":{"text":"📥\n2. In-context learning","fontSize":18}},
+    {"type":"rectangle","id":"s2v3-c3","x":70,"y":240,"width":320,"height":110,"roundness":{"type":3},"backgroundColor":"#fff3bf","fillStyle":"solid","strokeColor":"#f08c00","label":{"text":"🧩\n3. Handles complex tasks","fontSize":18}},
+    {"type":"rectangle","id":"s2v3-c4","x":410,"y":240,"width":320,"height":110,"roundness":{"type":3},"backgroundColor":"#d0bfff","fillStyle":"solid","strokeColor":"#7048e8","label":{"text":"📐\n4. Consistent formatting","fontSize":18}},
+    {"type":"text","id":"s2v3-foot","x":244,"y":390,"text":"💡 Best when you can show samples","fontSize":16,"strokeColor":"#757575"},
+    {"type":"line","id":"rb-ant","x":89,"y":-9,"width":0,"height":11,"points":[[0,0],[0,11]],"strokeColor":"#1971c2","strokeWidth":2},
+    {"type":"ellipse","id":"rb-ball","x":84,"y":-18,"width":10,"height":10,"backgroundColor":"#ff6b6b","fillStyle":"solid","strokeColor":"#e8590c","strokeWidth":2},
+    {"type":"rectangle","id":"rb-head","x":60,"y":4,"width":58,"height":46,"roundness":{"type":3},"backgroundColor":"#d0ebff","fillStyle":"solid","strokeColor":"#1971c2","strokeWidth":2},
+    {"type":"ellipse","id":"rb-eyeL","x":73,"y":18,"width":11,"height":11,"backgroundColor":"#1e1e1e","fillStyle":"solid","strokeColor":"#1e1e1e","strokeWidth":1},
+    {"type":"ellipse","id":"rb-eyeR","x":94,"y":18,"width":11,"height":11,"backgroundColor":"#1e1e1e","fillStyle":"solid","strokeColor":"#1e1e1e","strokeWidth":1},
+    {"type":"line","id":"rb-mouth","x":79,"y":38,"width":20,"height":0,"points":[[0,0],[20,0]],"strokeColor":"#1971c2","strokeWidth":2}
+  ]
+}

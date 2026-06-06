@@ -1,0 +1,18 @@
+{
+  "type": "excalidraw-scene-spec",
+  "section": "Few-Shot Prompting",
+  "layout": "vertical-flow",
+  "checkpointId": "7a97fe95f87f42aabf",
+  "elements": [
+    {"type":"cameraUpdate","width":800,"height":600,"x":0,"y":0},
+    {"type":"text","id":"s2v1-title","x":274,"y":22,"text":"Few-Shot Prompting","fontSize":28,"strokeColor":"#1e1e1e"},
+    {"type":"text","id":"s2v1-sub","x":286,"y":62,"text":"Show a few examples first","fontSize":16,"strokeColor":"#757575"},
+    {"type":"rectangle","id":"s2v1-b1","x":230,"y":100,"width":340,"height":60,"roundness":{"type":3},"backgroundColor":"#a5d8ff","fillStyle":"solid","strokeColor":"#1971c2","label":{"text":"Include examples in prompt","fontSize":18}},
+    {"type":"arrow","id":"s2v1-a1","x":400,"y":160,"width":0,"height":40,"points":[[0,0],[0,40]],"strokeColor":"#1e1e1e","strokeWidth":2,"endArrowhead":"arrow"},
+    {"type":"rectangle","id":"s2v1-b2","x":230,"y":200,"width":340,"height":60,"roundness":{"type":3},"backgroundColor":"#b2f2bb","fillStyle":"solid","strokeColor":"#2f9e44","label":{"text":"Enables in-context learning","fontSize":18}},
+    {"type":"arrow","id":"s2v1-a2","x":400,"y":260,"width":0,"height":40,"points":[[0,0],[0,40]],"strokeColor":"#1e1e1e","strokeWidth":2,"endArrowhead":"arrow"},
+    {"type":"rectangle","id":"s2v1-b3","x":230,"y":300,"width":340,"height":60,"roundness":{"type":3},"backgroundColor":"#fff3bf","fillStyle":"solid","strokeColor":"#f08c00","label":{"text":"Handles complex tasks","fontSize":18}},
+    {"type":"arrow","id":"s2v1-a3","x":400,"y":360,"width":0,"height":40,"points":[[0,0],[0,40]],"strokeColor":"#1e1e1e","strokeWidth":2,"endArrowhead":"arrow"},
+    {"type":"rectangle","id":"s2v1-b4","x":230,"y":400,"width":340,"height":60,"roundness":{"type":3},"backgroundColor":"#d0bfff","fillStyle":"solid","strokeColor":"#7048e8","label":{"text":"Keep formatting consistent","fontSize":18}}
+  ]
+}

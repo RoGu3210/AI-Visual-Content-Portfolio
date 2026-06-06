@@ -1,0 +1,3 @@
+# Python dependencies for the infographic generator.
+# Install with:  py -m pip install -r requirements.txt
+requests>=2.31
